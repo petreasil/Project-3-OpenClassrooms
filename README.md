@@ -4,3 +4,5 @@ Project to-dos
 
 1. Website prototype to be made in HTML and CSS with Bootstrap plus pre-registration page.
 2. Project brief with the client’s requests.
+
+ https://petreasil.github.io/Project-3-OpenClassrooms/
