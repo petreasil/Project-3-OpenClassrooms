@@ -1,0 +1,295 @@
+
+/* ==========================================================================
+	General Styles
+========================================================================== */
+body{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  color: #6c7279;
+  
+}
+p {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279; }
+
+  .navbar-brand{
+	font-size:25px;
+}
+ h1 {
+  font-size: 50px;
+  color: #fff !important }
+
+h2 {
+  font-size: 39px;
+  color: #2d3033; }
+
+h3 {
+  font-size: 28px;
+  color: #2d3033;
+   }
+
+
+h4 {
+  font-size: 22px;
+  color: #2d3033;
+  font-weight: 400; }
+
+
+  a {
+  color: #e84545; }
+
+ .btn {
+  background-color: #e84545;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase; }
+  .btn:hover, .btn:focus {
+    background-color: #e52e2e;
+    color: #fff; }
+ .btn-large {
+    padding: 15px 40px; }
+/* ==========================================================================
+	NAVBAR
+========================================================================== */
+.navbar {
+    margin-bottom: 0;
+    background-color: #30314D;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+	opacity:0.9;
+
+
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #e52e2e !important;
+}
+.navbar-nav li.active a {
+    color: #e52e2e !important;
+    background-color:#30314D !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/* ==========================================================================
+	CAROUSEL
+========================================================================== */
+.carousel-inner img {
+   
+	-webkit-filter:opacity(80%);
+	filter:opacity(80%);
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+	
+}
+.carousel-caption h3,.carousel-caption p {
+    color: #fff !important;
+
+}
+.carousel-caption p {
+	font-size: 20px;
+}
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+}
+/* ==========================================================================
+	DIVS
+========================================================================== */
+#work .thumbnail{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#news .thumbnail{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#feature {
+	padding: 15px 15px 15px 15px;
+}
+#despre{
+	padding: 40px 35px;
+	
+}
+#news {
+	padding: 15px 15px 15px 15px;
+}
+footer{
+	background-color: #30314D;
+	padding: 50px 50px;
+	
+}
+#social  h3, #social p{
+	color:#fff !important;
+}
+#work img:hover{
+	opacity: 0.7;
+}
+#work {
+	padding-top: 20px;
+	padding-bottom:30px;
+}
+#news h2{
+	padding-bottom: 30px;
+	font-size: 40px
+}
+#despre{
+	background-color: #53354a;
+	width: 100%;
+	color:#fff !important;
+	
+}
+#despre h3,h4,#despre p{
+	color:#fff !important;
+	
+}
+#work2 h5{
+	padding-top: 15px;
+}
+#despre h3,#despre h4
+{
+	padding-bottom:30px;
+}
+#work2{
+	background-color: #53354a;
+	width: 100%;
+	padding-bottom: 30px;
+	
+}
+#work2 h2,#work2 h3,#work2 h5{
+	color:#fff !important;
+}
+#social ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0; 
+}
+/* ==========================================================================
+	JUMBOTRON
+========================================================================== */
+.jumbotron{
+	padding:20px 60px 20px 60px;
+	background-color: #30314D;
+	color:#fff !important;
+	width: 100%;
+	
+}
+.jumbotron p{
+	color:#fff !important;
+	padding:20px 60px 20px 60px
+}
+.jumbotron h2{
+	padding-bottom: 30px;
+	color: #fff !important
+}
+.jumbotron strong{
+	color: #e52e2e;
+}
+.tooltip.right .tooltip-inner {
+    background-color: #30314D;
+}
+/* ==========================================================================
+	MEDIA SCREEN
+========================================================================== */
+
+@media screen and (max-width: 1024px){
+	.modal-dialog {
+	padding-top: 25px;
+        
+    }
+	
+}
+@media screen and (max-width: 768px){
+	.navbar-brand{
+	font-size:15px;
+	}
+	.modal-dialog {
+		padding-top: 30px;      
+    }
+	.carousel-caption {
+    top: 30%;
+    bottom: auto;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	.navbar-brand{
+	font-size:15px;
+	}
+	.modal-dialog {
+		padding-top: 40px; 
+    }
+	#myCarousel .btn{
+	display:none;
+	}
+	#feature {
+	padding: 9px 9px ;
+	}
+	.carousel-caption p {
+	font-size: 14px;
+	}
+	.carousel-caption h1 {
+	font-size: 30px;
+	}
+	h2{
+	font-size: 30px;
+	}
+	.carousel-caption {
+    top: 10%;
+    bottom: auto;
+	}
+    .jumbotron {
+    padding-top: 45%; }
+    .jumbotron h1 {
+     font-size: 23px; } }
+
+@media screen and (max-width: 320px) {
+	 .navbar-brand{
+	font-size:14px;
+	}
+	.modal-dialog {
+	padding-top: 40px;
+        
+    }
+	h1,h2{
+		font-size:20px;
+	}
+	h3,h4{
+		font-size:18px;
+	}
+	
+	#feature {
+	padding: 9px 9px ;
+	}
+	#feature p{
+	font-size:14px;
+	}
+	#myCarousel .btn{
+	display:none;
+	}
+ 
+	.carousel-caption {
+    top: 20%;
+    bottom: auto;
+	}
+	.carousel-caption p {
+	font-size: 14px;
+	}
+	.btn {
+    font-size: 10px;
+	font-weight: 300;
+	}
+   .jumbotron {
+	padding-top: 55%; } }
+
+
